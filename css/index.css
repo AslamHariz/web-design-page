@@ -109,3 +109,17 @@ img[alt="intro-img"] {
   bottom: -150px;
   right: 100px;
 }
+
+@media screen and (max-width: 1080px) {
+  
+  .nav-items{
+    display: none;
+  }
+  
+button.signin-btn{
+  margin-left: 100px;
+  margin-top: 100px;
+  padding: 5px 30px;
+  font-size: 2rem;
+}
+}
